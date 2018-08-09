@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#fff" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:constants="clr-namespace:XamarinFormsSample;assembly=XamarinFormsXamlSample"
+             
+             x:Class="BurgerBurger.Pages.FoodListsPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+               
+            </Grid.RowDefinitions>
+
+            <Image Source ="header"
+                   Grid.Row="0"
+                     Margin="0,-25,0,0"
+                   HeightRequest="200"
+                   WidthRequest="200"/>
+
+            <StackLayout  Margin="0,0,0,0"
+                          Padding="8,8,8,8"
+                          HorizontalOptions="Center"
+                          VerticalOptions="Center"
+                          BackgroundColor="#d44322"
+                            Opacity="0.9">
+
+                <Label Text="THE MENU" TextColor="#fff" FontAttributes="Bold" FontSize="30"  HorizontalOptions="Center"/>
+                <Label Text="Easy on Time, Full on flavour" TextColor="#fff" HorizontalOptions="Center"/>
+
+            </StackLayout>
+
+
+
+
+            <ListView Margin="5"  HasUnevenRows="True"    Grid.Row="1" x:Name="listView">
+                <ListView.ItemTemplate>
+
+                    <DataTemplate>
+                        <ViewCell>
+                        <ViewCell.View>
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.25*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source="{ Binding ImageUrl}" HorizontalOptions="Center" VerticalOptions="Center" 
+                                   HeightRequest="80" WidthRequest="80" Grid.Column="0" Margin="5"/>
+
+                                <StackLayout Grid.Column="1" Margin="5,35,0,0" >
+                                        <Label Text ="{Binding FoodName}" VerticalOptions="Center"  FontSize="20" TextColor="#464342"/>
+                                  
+                                </StackLayout>
+                            </Grid>
+
+                        </ViewCell.View>
+                        </ViewCell>
+
+                    </DataTemplate>
+
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,13 @@
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\bin\Debug\netstandard2.0\BurgerBurger.deps.json
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\bin\Debug\netstandard2.0\BurgerBurger.dll
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\bin\Debug\netstandard2.0\BurgerBurger.pdb
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\obj\Debug\netstandard2.0\BurgerBurger.csprojAssemblyReference.cache
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\obj\Debug\netstandard2.0\Pages\FoodListsPage.xaml.g.cs
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\obj\Debug\netstandard2.0\BurgerBurger.csproj.CoreCompileInputs.cache
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\obj\Debug\netstandard2.0\BurgerBurger.AssemblyInfoInputs.cache
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\obj\Debug\netstandard2.0\BurgerBurger.AssemblyInfo.cs
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\obj\Debug\netstandard2.0\BurgerBurger.dll
+C:\Users\Ugesh\source\repos\BurgerBurger\BurgerBurger\BurgerBurger\obj\Debug\netstandard2.0\BurgerBurger.pdb
